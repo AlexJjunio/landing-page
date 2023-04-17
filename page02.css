@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ECEFF2;
+  --letter-gray: #828282;
+  --letter-dark-gray: #3F3D56;
+  --span-purple: #EE24FF;
+}
+
+body {
+  background-color: #fff;
+}
+
+#container {
+  width: 626px;
+  text-align: center;
+
+  margin: 64px auto 64px;
+}
+
+#container h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 32px;
+
+  line-height: 40.45px;
+
+  color: var(--letter-dark-gray);
+
+  margin-bottom: 16px;
+}
+
+#container p {
+  color: var(--letter-gray);
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+
+  line-height: 22px;
+}
+
+#container strong {
+  color: var(--letter-dark-gray);
+}
+
+span {
+  color: var(--span-purple);
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+footer a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+
+  text-decoration: none;
+
+  color: var(--letter-dark-gray);
+}
+
+footer a + a {
+  margin-left: 42px;
+}
+
+#line {
+  width: 391px;
+  height: 1px;
+  background: var(--white);
+
+  margin: 0 auto 16px;
+}
+
+#wave {
+  /* border: 1px solid red; */
+  margin: auto;
+
+  display: block;
+}
+
+#flutuar {
+  font-weight: bold;
+  color: var(--letter-gray);
+}
+
+strong {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: var(--letter-dark-gray);
+}
